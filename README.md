@@ -1,11 +1,11 @@
 ### Parsing the dataset of "Compound Memory Networks for Few-shot Video Classification"
 
-The data splits of the dataset (let's call it "Kinetics-100" for convenience) used in the publication "Compound Memory Networks for Few-shot Video Classification", in text format, as given by the authors in their github repo, can be found in `data_splits` folder. (source : https://github.com/ffmpbgrnn/CMN )
+The data splits of the dataset (let's call it "Kinetics-100" for convenience) that was introduced by the publication "Compound Memory Networks for Few-shot Video Classification - ECCV 2018", in text format, as given by the authors in their github repo, can be found in `data_splits` folder. (source : https://github.com/ffmpbgrnn/CMN )
 These data splits are re-written in .csv format (the same format with that of the data splits of the full Kinetics-400 dataset), in `data_splits_100` folder, by executing `parse_classes.py`.
 
 The data splits of the Kinetics-400 dataset, can be found in .csv format, in `data_splits_400` folder. ( source : https://github.com/activitynet/ActivityNet/tree/master/Crawler/Kinetics/data )
 
-To download the dataset splits of Kinetics-100:
+To download the dataset splits of Kinetics-100, you'll need the Kinetics crawler, and the splits in .csv format (as mentioned above, you can find the splits in the `data_splits_100` folder) :
 1. Clone the Kinetics dataset crawler:
 ``
 git clone https://github.com/activitynet/ActivityNet/tree/master/Crawler/Kinetics
