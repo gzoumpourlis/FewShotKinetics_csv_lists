@@ -5,7 +5,7 @@ These data splits are re-written in .csv format (the same format with that of th
 
 The data splits of the Kinetics-400 dataset, can be found in .csv format, in `data_splits_400` folder. ( source : https://github.com/activitynet/ActivityNet/tree/master/Crawler/Kinetics/data )
 
-To download the dataset splits:
+To download the dataset splits of Kinetics-100:
 1. Clone the Kinetics dataset crawler:
 ``
 git clone https://github.com/activitynet/ActivityNet/tree/master/Crawler/Kinetics
